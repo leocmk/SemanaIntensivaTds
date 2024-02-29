@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comptible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Troca de Perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     
 </head>
 <body>
+  
     <button id="btnStyle" onclick="changeimage()"> Trocar de imagem e fundo</button>
-    <div>
-        <img src="./imagem/pic1.png" alt="Perfil" id="Profile">
+    <div class="wrap-image">
+        <img src="./imagem/pic1.png" alt="Perfil" id="profile" width="370px" height="auto">
     </div>
-    <p id="colortxt">Ultima vez trocado ás: <span></span> </p>
+    <p id="colortxt">Ultima vez trocado ás: <span id="data"></span> </p>
 </body>
 </html>
